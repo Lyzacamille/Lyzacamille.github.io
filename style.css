@@ -1,14 +1,49 @@
 body {
-    background-color: aqua
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color:white;
 }
 
 
 h1 {
-    color: rgb(38, 0, 255);
+    color: white;
     font-family: courier;
     font-size: 160%;
     text-align: center;
 }
+
+#header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: pink;
+}
+
+#origin {
+    border-style: solid;
+    padding: 2px;
+    color:black;
+}
+
+ol {
+    display: flex;
+    width: 100%;
+}
+
+ ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color:pink;
+    width: 100%;
+    padding: 16px;
+}
+
+
+
 p {
     text-align:left;
     font-size: 200%
@@ -16,13 +51,11 @@ p {
 }
 img {
     transform: rotate(90deg);
-}
-.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-   
-}
+   } 
+
 .airplane{
     transform: rotate(360deg)
 }
