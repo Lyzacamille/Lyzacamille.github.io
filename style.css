@@ -25,6 +25,13 @@ h1 {
     padding: 2px;
     color:black;
 }
+.dot {
+    height: 500px;
+    width: 500px;
+    background-color: #bbb;
+    border-radius: 100%;
+    display: inline-block;
+  }
 
 ol {
     display: flex;
