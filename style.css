@@ -57,7 +57,7 @@ ol {
     transition: width 2s;
     transition-timing-function: ease-in;
     width: 300px;
-    
+    transform: scale(1.5)
  }   
 p {
     text-align:left;
@@ -82,7 +82,7 @@ body {
  #me{
      position: absolute;
      left:350px;
-     bottom: 10px;
+     bottom: 30px;
      transform: rotate(90deg);
  }
  #all{
@@ -95,6 +95,4 @@ body {
     height: 75px;
     width: 75px;
 }
-
-
 
