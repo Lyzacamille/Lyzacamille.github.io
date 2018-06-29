@@ -8,9 +8,14 @@ body {
 
 h1 {
     color: white;
-    font-family: courier;
-    font-size: 160%;
+    font-family: cursive;
+    font-size: 200%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
 }
 
 #header {
@@ -47,18 +52,20 @@ ol {
     background-color:pink;
     width: 100%;
     padding: 16px;
-}
-
-
-
+ }
+ ul:hover{
+    transition: width 2s;
+    transition-timing-function: ease-in;
+    width: 300px;
+    
+ }   
 p {
     text-align:left;
     font-size: 200%
     
 }
-img {
-    transform: rotate(90deg);
-    display: block;
+ img  {
+    
     margin-left: auto;
     margin-right: auto;
     
@@ -70,10 +77,24 @@ img {
 body {
     margin: 0;
     overflow: hidden;
+    height: 100vh;
   }
  #me{
      position: absolute;
      left:350px;
-     bottom: 50px;
+     bottom: 10px;
+     transform: rotate(90deg);
+ }
+ #all{
+    position: absolute;
+    height:100%;
+     width: 100%;
  }
  
+#con{
+    height: 75px;
+    width: 75px;
+}
+
+
+
