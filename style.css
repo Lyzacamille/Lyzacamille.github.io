@@ -24,7 +24,13 @@ h1 {
     padding: 20px;
     background-color: pink;
 }
-
+#header img:hover {
+    width: 150px;
+    height: 150px;
+}
+#header img{
+    transition:width 2s, height 2s;
+}
 #origin {
     border-style: solid;
     padding: 2px;
@@ -38,27 +44,21 @@ h1 {
     display: inline-block;
   }
 
-ol {
-    display: flex;
-    width: 100%;
-}
+
+
 
  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     list-style-type: none;
     text-align: center;
-    margin: 0 auto;
-    padding: 0;
     overflow: hidden;
     background-color:pink;
     width: 100%;
     padding: 16px;
  }
- ul:hover{
-    transition: width 2s;
-    transition-timing-function: ease-in;
-    width: 300px;
-    transform: scale(1.5)
- }   
+ 
 p {
     text-align:left;
     font-size: 200%
