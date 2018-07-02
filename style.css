@@ -5,7 +5,6 @@ body {
     background-color:white;
 }
 
-
 h1 {
     color: white;
     font-family: cursive;
@@ -16,6 +15,9 @@ h1 {
     align-items: center;
     height: 100%;
 
+}
+h1:hover{
+    color: deeppink;
 }
 
 #header {
@@ -44,10 +46,7 @@ h1 {
     display: inline-block;
   }
 
-
-
-
- ul {
+ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -77,12 +76,18 @@ body {
     overflow: hidden;
     height: 100vh;
   }
+  canvas{
+      position: absolute;
+      left:0;
+      top:0;
+  }
  #me{
      position: absolute;
      left:350px;
      bottom: 30px;
      transform: rotate(90deg);
  }
+
  #all{
     position: absolute;
     height:100%;
@@ -93,4 +98,3 @@ body {
     height: 75px;
     width: 75px;
 }
-

@@ -6,15 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" id="megit ">
+    <link rel="stylesheet" href="style.css">
 
 </head>
-<body></body>
+<body>
+    <canvas id= "my-canvas"></canvas> 
+    <script src="index.js"></script>
 <a href="home.html">
-<script src="index.js"></script>
     <img src="lyza1.jpg" height="400px" width="400px" class="dot" id="me">
 </a>
-
+ <script>
+     var confettiSettings = {target: 'my-canvas'};
+var confetti = new window.ConfettiGenerator(confettiSettings);
+confetti.render();
+</script>
 
 </body>
 
