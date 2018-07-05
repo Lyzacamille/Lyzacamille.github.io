@@ -48,6 +48,13 @@ h2{
     border-style: solid;
     padding: 2px;
     color:black;
+    border-width:5px;
+    margin: 150px;
+}
+#middle{
+    display: flex;
+    flex-direction: column;
+    fle
 }
 .dot {
     height: 750px;
@@ -86,7 +93,10 @@ p {
  }
 
 .airplane{
-    transform: rotate(360deg)
+    transform: rotate(360deg);
+}
+.outside{
+    transform: rotate(30deg);
 }
 body {
     margin: 0;
