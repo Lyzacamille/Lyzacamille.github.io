@@ -17,7 +17,7 @@ h1 {
     height: 100%;
 
 }
-h1:hover{
+#lyza:hover{
     color: deeppink;
 }
 h2{
@@ -50,11 +50,80 @@ h2{
     color:black;
     border-width:5px;
     margin: 150px;
+   
 }
 #middle{
-    display: flex;
-    flex-direction: column;
-    fle
+    position:fixed;
+    left:3px;
+    top: 30px;
+}
+#middle img:hover {
+    width: 150px;
+    height: 150px;
+}
+#middle img{
+    transition:width 2s, height 2s;
+}
+#bas{
+    position:fixed;
+    left:3px;
+    top:300px;
+}
+#bas img:hover {
+    width: 150px;
+    height: 150px;
+}
+#bas img{
+    transition:width 2s, height 2s;
+}
+#ro{
+    position:fixed;
+    left:3px;
+    top:600px;
+}
+#ro img:hover {
+    width: 150px;
+    height: 150px;
+}
+#ro img{
+    transition:width 2s, height 2s;
+}
+#outside{
+    position:fixed;
+    right: 6px;
+    top: 30px;
+    transform: rotate(90deg);
+}
+#outside img:hover {
+    width: 150px;
+    height: 150px;
+}
+#outside img{
+    transition:width 2s, height 2s;
+}
+#pin{
+    position:fixed;
+    right: 6px;
+    top: 300px;
+}
+#pin img:hover {
+    width: 150px;
+    height: 150px;
+}
+#pin img{
+    transition:width 2s, height 2s;
+}
+#reading{
+    position:fixed;
+    right:6px;
+    top:600px;
+}
+#reading img:hover {
+    width: 150px;
+    height: 150px;
+}
+#reading img{
+    transition:width 2s, height 2s;
 }
 .dot {
     height: 750px;
