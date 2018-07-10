@@ -4,6 +4,7 @@ body {
     margin: 0 auto;
     background-color:white;
     overflow: scroll;
+    
 }
 
 h1 {
@@ -16,6 +17,10 @@ h1 {
     align-items: center;
     height: 100%;
 
+}
+#lyza{
+    width: fit-content;
+    align-self: center;
 }
 #lyza:hover{
     color: deeppink;
@@ -31,6 +36,7 @@ h2{
     flex-direction: column;
     padding: 20px;
     background-color: pink;
+
 }
 #header img:hover {
     width: 150px;
