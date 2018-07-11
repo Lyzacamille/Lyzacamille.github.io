@@ -131,6 +131,10 @@ h2{
 #reading img{
     transition:width 2s, height 2s;
 }
+#back{
+    background-image: url(flowers.JPG);
+    color:white;
+}
 .dot {
     height: 750px;
     width: 750px;
