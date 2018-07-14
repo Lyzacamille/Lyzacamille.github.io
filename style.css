@@ -53,7 +53,7 @@ h2{
 #hobbies{
     border-style: solid;
     padding: 2px;
-    color:black;
+    color:white;
     border-width:5px;
     margin: 150px;
    
@@ -134,6 +134,7 @@ h2{
 #back{
     background-image: url(flowers.JPG);
     color:white;
+    /*filter: blur(30px)*/
 }
 .dot {
     height: 750px;
