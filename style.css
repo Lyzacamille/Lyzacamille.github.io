@@ -53,10 +53,42 @@ h2{
 #hobbies{
     border-style: solid;
     padding: 2px;
-    color:white;
+    color:black;
     border-width:5px;
     margin: 150px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
    
+}
+#old{
+    position: fixed;
+    left: 1050px;
+    top: 500px;
+}
+#big:hover{
+    transition-timing-function:ease-in;
+    transition:width 2s, height 2s;
+}
+#big{
+    position: fixed;
+    left:50px;
+    top:200px
+}
+#jets{
+    position: fixed;
+    left:300px;
+    top:200px
+}
+#point{
+    position: fixed;
+    left:300px;
+    top:500px;
+    transform: rotate(90deg);
+}
+#rolls{
+    position: fixed;
+    left:600px;
+    top:500px;
 }
 #middle{
     position:fixed;
@@ -134,7 +166,12 @@ h2{
 #back{
     background-image: url(flowers.JPG);
     color:white;
-    /*filter: blur(30px)*/
+    /*(opacity: 0.5;
+    filter: alpha(opacity=50); 
+    filter: blur(30px)*/
+}
+#hob{
+     color: white;
 }
 .dot {
     height: 750px;
