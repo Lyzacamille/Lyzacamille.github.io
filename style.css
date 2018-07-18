@@ -68,13 +68,13 @@ h2{
     height:800px;
 }
 #big:hover{
-    transition-timing-function:ease-in;
-    transition:width 2s, height 2s;
+  /*  transition-timing-function:ease-in;
+    transition:width 2s, height 2s;*/
 }
 #big{
     position: fixed;
-    left:50px;
-    top:200px;
+    left:375px;
+    top:1px;
     border-radius: 100px;
     
 }
@@ -93,7 +93,7 @@ h2{
 }
 #rolls{
     position: fixed;
-    left:600px;
+    left:800px;
     top:500px;
     border-radius:100px;
 }
