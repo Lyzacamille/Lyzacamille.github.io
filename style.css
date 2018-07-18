@@ -73,34 +73,28 @@ h2{
 }
 #big{
     position: fixed;
-    left:375px;
-    top:1px;
+    left:610px;
+    top:350px;
     border-radius: 100px;
     
 }
 #jets{
     position: fixed;
-    left:300px;
-    top:200px;
+    left:330px;
+    top:300px;
     border-radius:100px;
 }
 #point{
     position: fixed;
-    left:300px;
-    top:500px;
+    left:900px;
+    top:300px;
     transform: rotate(90deg);
     border-radius:100px;
 }
 #rolls{
     position: fixed;
-    left:800px;
-    top:500px;
-    border-radius:100px;
-}
-#desk{
-    position: fixed;
-    left:900px;
-    top:250px;
+    left:610px;
+    top:600px;
     border-radius:100px;
 }
 #middle{
