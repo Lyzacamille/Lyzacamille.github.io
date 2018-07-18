@@ -58,7 +58,22 @@ h2{
     margin: 150px;
     opacity: 0.5;
     filter: alpha(opacity=50);
-   
+}
+#video{
+    display: block;
+    border-left: 6px solid green;
+    height: 850px;
+    position: absolute;
+    left:0%;
+    margin-left:0px;
+    top: 0;
+    /*border-left: 6px solid green;
+    height:1000px;
+    border-style: solid;
+    margin: 90px;
+    border-left:100px ;
+    height:950px;
+    width:650px;*/
 }
 #old{
     position: fixed;
@@ -90,6 +105,11 @@ h2{
     left:600px;
     top:500px;
 }
+#desk{
+    position: fixed;
+    left:900px;
+    top:250px;
+}
 #middle{
     position:fixed;
     left:3px;
@@ -101,6 +121,12 @@ h2{
 }
 #middle img{
     transition:width 2s, height 2s;
+}
+#comp{
+    position: fixed;
+    left:20px;
+    top:30px;
+    height:800px;
 }
 #bas{
     position:fixed;
@@ -225,6 +251,9 @@ body {
       left:0;
       top:0;
   }
+#scroll{
+    overflow:auto;
+}
  #me{
      position: absolute;
      left:350px;
