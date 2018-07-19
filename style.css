@@ -36,7 +36,12 @@ h2{
     flex-direction: column;
     padding: 20px;
     background-color: pink;
-
+}
+#head{
+    display: flex;
+    flex-direction: column;
+    padding:55px;
+    background-color: pink;
 }
 #header img:hover {
     width: 150px;
@@ -44,6 +49,14 @@ h2{
 }
 #header img{
     transition:width 2s, height 2s;
+}
+#left{
+    position:fixed;
+    left:0px;
+}
+#right{
+    position: fixed;
+    right:0px;
 }
 #origin {
     border-style: solid;
