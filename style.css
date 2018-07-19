@@ -81,13 +81,13 @@ h2{
 #jets{
     position: fixed;
     left:330px;
-    top:300px;
+    top:350px;
     border-radius:100px;
 }
 #point{
     position: fixed;
     left:900px;
-    top:300px;
+    top:350px;
     transform: rotate(90deg);
     border-radius:100px;
 }
