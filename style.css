@@ -43,6 +43,37 @@ h2{
     padding:55px;
     background-color: pink;
 }
+#quote{
+    font-family: cursive;
+    color:black;
+    position: absolute;
+    left:400px;
+    top:300px;
+    font-size: 55px;
+}
+#quote:hover{
+    color: darkgoldenrod;
+}
+#info{
+    position: fixed;
+    left:500px; 
+    top:575px;
+}
+#num{
+    position: fixed;
+    left:500px;
+    top:700px;
+}
+#email{
+    position: fixed;
+    left:300px;
+    top:600px;
+}
+#phone{
+    position: fixed;
+    left:300px;
+    top:750px;
+}
 #header img:hover {
     width: 150px;
     height: 150px;
