@@ -100,9 +100,8 @@ h2{
     padding: 2px;
     border-width:5px;
     margin: 150px;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-   background-color:palevioletred;
+   background-color:rgba(216, 112, 147,.5);
+   font-weight: bold;
 }
 #old{
     border: 10px solid black;
