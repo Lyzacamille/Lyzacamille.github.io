@@ -95,6 +95,7 @@ h2{
     color:black;
 }
 #hobbies{
+    position: relative;
     border-style: solid black ;
     padding: 2px;
     border-width:5px;
@@ -103,7 +104,6 @@ h2{
     filter: alpha(opacity=50);
    background-color:palevioletred;
 }
-
 #old{
     border: 10px solid black;
     position: fixed;
